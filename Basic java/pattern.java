@@ -1,5 +1,5 @@
 public class pattern {
-    public static void pattern(int n) {
+    public static void pattern_inverted(int n) {
         int count = 1;
         for(int i = 1 ; i <= n ;i++) {
             for(int j = 1; j<=i; j++) {
@@ -11,6 +11,6 @@ public class pattern {
     }
 
     public static void main(String[] args) {
-        pattern(7);
+        pattern_inverted(7);
     }
 }
